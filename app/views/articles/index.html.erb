@@ -1,0 +1,9 @@
+<h1 class='p-5'>Articles</h1>
+
+<ul>
+  <% @articles.each do |article| %>
+    <li><%= article.title %></li>
+  <% end %>
+</ul>
+
+<%# <%= link_to "Crear nueva tarea", new_task_path %>
